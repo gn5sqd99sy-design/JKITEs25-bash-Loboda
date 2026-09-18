@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Lisab funktsioonid failist functions.sh
-source /home/roman/skriptimine/functions.sh
-
+source ./functions.sh
 echo "=== Bash funktsioonide test ==="
 
 # Otsib .txt lõpuga faile
