@@ -1,6 +1,6 @@
 #!/bin/bash
 set -u
-FAIL="/tmp/test_fail.txt"
+FAIL="/tmp/test fail.txt"
 if [ -f "$FAIL" ]; then
 mkdir -p /tmp/backup
 if cp "$FAIL" /tmp/backup/; then 
